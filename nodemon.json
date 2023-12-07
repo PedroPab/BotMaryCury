@@ -1,0 +1,5 @@
+{
+  "ignore": [
+    "bot_sessions/*"
+  ]
+}
