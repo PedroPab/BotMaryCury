@@ -65,8 +65,18 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo', 'buenos', 'dias', 'quier
             '¿Quieres saber cómo?\n',
             'Escribe:  *si*  /  *no*   para tu respuesta',
         ],
-        null,
-        null,
+        { capture: true },
+        (ctx, { fallBack }) => {
+            const resMin = ctx.body.toLowerCase()
+            console.log("🚀 ~ file: app.js:71 ~ resMin:", resMin)
+
+            if (resMin == 'si' ||
+                resMin == 'no'
+            ) {
+                return
+            }
+            return fallBack()
+        },
         // [flowDocs, flowGracias, flowTuto, flowDiscord]
         [flowSi, flowNo]
     )
