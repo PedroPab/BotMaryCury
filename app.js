@@ -56,7 +56,7 @@ const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
     [flowDefautl]
 )
 
-const flowPrincipal = addKeyword(['hola', 'ole', 'alo', 'buenos', 'dias', 'quiero realizar un pedido'])
+const flowPrincipal = addKeyword(['hola', 'ole', 'alo', 'buenos', 'dias', 'quiero realizar un pedido', 'buenas', 'buenas tardes', 'tardes', 'noche', 'buenas noches', 'hacer un pedido'])
     .addAnswer('👋 Hola, bienvenido a Domi Burguer')
     .addAnswer(
         [
