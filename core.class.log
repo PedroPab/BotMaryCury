@@ -1,0 +1,291 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573502100682@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB079A6780E280E894147',
+    participant: undefined
+  },
+  messageTimestamp: 1702068382,
+  pushName: 'Julia🎈',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '573502100682'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cb063468-dda6-4ff0-a808-ca5e71d6cf99',
+  keyword: 'key_bfb385c2-046e-466a-ad60-39b3f1de68bc',
+  answer: '👋 Hola, bienvenido a Domi Burguer',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '83094639f09b96e56453bea3a25e9d17'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1cab26df-764f-4b21-9f5b-e5af71d3b76b',
+  keyword: 'ans_cb063468-dda6-4ff0-a808-ca5e71d6cf99',
+  answer: '*¡Nos hemos actualizado!*\n' +
+    'Ahora puedes hacer tu pedido de una manera más ágil\n' +
+    '¿Quieres saber cómo?\n' +
+    '\n' +
+    'Escribe:  *si*  /  *no*   para tu respuesta',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '359cf1e3103526c3e3404eebea623c23'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573502100682@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB090C7A8C636163F8AC9',
+    participant: undefined
+  },
+  messageTimestamp: 1702068384,
+  pushName: 'Julia🎈',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'si',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'si',
+  from: '573502100682'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cf8f8bd2-be61-4dfe-b7aa-859b1fb68f13',
+  keyword: 'key_fc2d08a1-efe6-4937-ac8e-41310999a951',
+  answer: '¡Genial! Puedes hacer el pedido tú mismo 🤭\n' +
+    '\n' +
+    '🎊 *Ingresa a:  https://domiburguer.com*\n' +
+    '\n' +
+    'Cuando llenes el formulario te llegara un mensaje de *confirmacion* al whatsApp\n' +
+    'despues solo es esperar',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'f71375ad8c7901660ff98d9ea5bdd44f'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573502100682@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0957A124F6A75225877',
+    participant: undefined
+  },
+  messageTimestamp: 1702068386,
+  pushName: 'Julia🎈',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'grenoa',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'grenoa',
+  from: '573502100682'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573502100682@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0A9173BBDFB4B79CFAE',
+    participant: undefined
+  },
+  messageTimestamp: 1702068390,
+  pushName: 'Julia🎈',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'sdh',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'sdh',
+  from: '573502100682'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573502100682@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0833FBABA9EFEA97F82',
+    participant: undefined
+  },
+  messageTimestamp: 1702068392,
+  pushName: 'Julia🎈',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '573502100682'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cb063468-dda6-4ff0-a808-ca5e71d6cf99',
+  keyword: 'key_bfb385c2-046e-466a-ad60-39b3f1de68bc',
+  answer: '👋 Hola, bienvenido a Domi Burguer',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '83094639f09b96e56453bea3a25e9d17'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1cab26df-764f-4b21-9f5b-e5af71d3b76b',
+  keyword: 'ans_cb063468-dda6-4ff0-a808-ca5e71d6cf99',
+  answer: '*¡Nos hemos actualizado!*\n' +
+    'Ahora puedes hacer tu pedido de una manera más ágil\n' +
+    '¿Quieres saber cómo?\n' +
+    '\n' +
+    'Escribe:  *si*  /  *no*   para tu respuesta',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '359cf1e3103526c3e3404eebea623c23'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573502100682@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB00B9EF8C660F75BD75C',
+    participant: undefined
+  },
+  messageTimestamp: 1702068394,
+  pushName: 'Julia🎈',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'no',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'no',
+  from: '573502100682'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ce17ab27-ab97-4c7d-b582-3ca013fe273d',
+  keyword: 'key_d4441921-4f41-4f46-9a74-185363f9ca28',
+  answer: 'Tranqui, siempre estaremos aqui para atenderte por este medio ✨\n' +
+    '\n' +
+    '¿Que deseas ordenar el día de hoy?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '818374e615156b75db21070fcfb057e7'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573502100682@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0875B0750BC505FB0A7',
+    participant: undefined
+  },
+  messageTimestamp: 1702068399,
+  pushName: 'Julia🎈',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'un como',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'un como',
+  from: '573502100682'
+}

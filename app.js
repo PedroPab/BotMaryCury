@@ -1,4 +1,5 @@
-const { createBot, createProvider, createFlow, addKeyword } = require('@bot-whatsapp/bot')
+const { createBot, createProvider, createFlow, addKeyword, EVENTS, } = require('@bot-whatsapp/bot')
+
 
 const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
@@ -30,15 +31,11 @@ const flowDudas = addKeyword('')
 const flowSi = addKeyword(['si', 'Si', 'bueno', 'sí'])
     .addAnswer(
         [
-            '¡Genial! Hacer tu pedido con Domi Burguer es fácil y rápido:',
-            ' Ingresa a:  *https://domiburguer.com*',
+            '¡Genial! Puedes hacer el pedido tú mismo 🤭\n',
+            '🎊 *Ingresa a:  https://domiburguer.com*\n',
             'Cuando llenes el formulario te llegara un mensaje de *confirmacion* al whatsApp',
             'despues solo es esperar'
         ],
-        { capture: true },
-        (ctx) => {
-            console.log(`ctx`, ctx);
-        },
     )
 
 const flowNo = addKeyword(['no', 'No'])
@@ -46,12 +43,7 @@ const flowNo = addKeyword(['no', 'No'])
         [
             'Tranqui, siempre estaremos aqui para atenderte por este medio ✨\n',
             '¿Que deseas ordenar el día de hoy?',
-        ],
-        { capture: true },
-        (ctx) => {
-            console.log(`ctx`, ctx);
-        },
-        [flowDefautl]
+        ]
     )
 
 
@@ -64,7 +56,7 @@ const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
     [flowDefautl]
 )
 
-const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
+const flowPrincipal = addKeyword(['hola', 'ole', 'alo', 'buenos', 'dias', 'quiero realizar un pedido'])
     .addAnswer('👋 Hola, bienvenido a Domi Burguer')
     .addAnswer(
         [
@@ -76,7 +68,23 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
         null,
         null,
         // [flowDocs, flowGracias, flowTuto, flowDiscord]
-        [flowGracias, flowSi, flowNo]
+        [flowSi, flowNo]
+    )
+
+
+const flowBienvenida = addKeyword(EVENTS.WELCOME)
+    .addAnswer('👋 Hola, bienvenido a Domi Burguer')
+    .addAnswer(
+        [
+            '*¡Nos hemos actualizado!* ✨',
+            'Ahora puedes hacer tu pedido de una manera más ágil',
+            '¿Quieres saber cómo?\n',
+            'Escribe:  *si*  /  *no*   para tu respuesta',
+        ],
+        null,
+        null,
+        // [flowDocs, flowGracias, flowTuto, flowDiscord]
+        [flowSi, flowNo]
     )
 
 const main = async () => {
