@@ -10,7 +10,7 @@ const flowDefautl = addKeyword('')
         [
             'Esperame un momento',
         ],
-        { capture: true },
+        { capture: true, delay: 600 },
         (ctx) => {
             console.log(`ctx`, ctx);
         }
@@ -31,19 +31,38 @@ const flowDudas = addKeyword('')
 const flowSi = addKeyword(['si', 'Si', 'bueno', 'sí'])
     .addAnswer(
         [
-            '¡Genial! Puedes hacer el pedido tú mismo 🤭\n',
-            '🎊 *Ingresa a:  https://domiburguer.com*\n',
-            'Cuando llenes el formulario te llegara un mensaje de *confirmacion* al whatsApp',
-            'despues solo es esperar'
+            '¡Genial! Puedes hacer el pedido tú mismo 🤭',
         ],
+    )
+
+    .addAnswer(
+        [
+            '🎊 *Ingresa a:  https://domiburguer.com*',
+        ],
+        { delay: 600 }
+    )
+    .addAnswer(
+        [
+            'Cuando llenes el formulario 📝 te llegara un mensaje de *confirmacion* al whatsApp',
+            'después solo es esperar',
+        ],
+        { delay: 600 }
+    )
+    .addAnswer(
+        [
+            '*Eres muy especial para nosotros* ✨ ',
+            'Al llenar nuestro formulario nos ayudas a optimizar nuestro tiempo y servicio. ¡Gracias por ser parte de esta mejora! 💖'
+        ],
+        { delay: 1000 }
     )
 
 const flowNo = addKeyword(['no', 'No'])
     .addAnswer(
         [
-            'Tranqui, siempre estaremos aqui para atenderte por este medio ✨\n',
-            '¿Que deseas ordenar el día de hoy?',
-        ]
+            'Tranqui, siempre estaremos aquí para atenderte por este medio ✨\n',
+            '¿Qué deseas ordenar el día de hoy?',
+        ],
+        { delay: 600 }
     )
 
 
@@ -56,7 +75,7 @@ const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
     [flowDefautl]
 )
 
-const flowPrincipal = addKeyword(['hola', 'ole', 'alo', 'buenos', 'dias', 'quiero realizar un pedido', 'buenas', 'buenas tardes', 'tardes', 'noche', 'buenas noches', 'hacer un pedido'])
+const flowPrincipal = addKeyword(['hola', 'ole', 'alo', 'Ola', 'holi', 'oli', 'buenos', 'dias', 'quiero realizar un pedido', 'buenas', 'buenas tardes', 'tardes', 'noche', 'buenas noches', 'hacer un pedido', 'tines domicilios', 'como estan', 'Cómo estás', 'Como está', 'Cómo esta'])
     .addAnswer('👋 Hola, bienvenido a Domi Burguer')
     .addAnswer(
         [
@@ -65,7 +84,7 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo', 'buenos', 'dias', 'quier
             '¿Quieres saber cómo?\n',
             'Escribe:  *si*  /  *no*   para tu respuesta',
         ],
-        { capture: true },
+        { capture: true, delay: 600 },
         (ctx, { fallBack }) => {
             const resMin = ctx.body.toLowerCase()
             console.log("🚀 ~ file: app.js:71 ~ resMin:", resMin)
