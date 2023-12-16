@@ -99,7 +99,7 @@ const flowBienvenida = addKeyword(EVENTS.WELCOME)
 
 const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowPrincipal])
+    const adapterFlow = createFlow([])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({
@@ -109,6 +109,11 @@ const main = async () => {
     })
 
     QRPortalWeb()
+
+    adapterProvider.on('message', ctx => {
+        console.log(`new messge`, ctx)
+
+    })
 }
 
 main()
