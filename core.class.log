@@ -1,0 +1,23 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573054061863@s.whatsapp.net',
+    fromMe: false,
+    id: 'F7CE9E8C48A875AB08',
+    participant: undefined
+  },
+  messageTimestamp: 1702749701,
+  pushName: '🥰😍',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'antes de darle la documentación',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'antes de darle la documentación',
+  from: '573054061863'
+}
