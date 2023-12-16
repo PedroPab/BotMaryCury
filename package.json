@@ -9,7 +9,7 @@
         "start": "node app.js",
         "dev": "nodemon app.js",
         "build": "docker build -t bot-mary .",
-        "runImg": "docker run -it --name bot-mary -p 80:3000 --restart=always -v /root/volumens/bot_sessions:/app/bot_sessions bot-mary"
+        "runImg": "docker run -it -p 80:3000 --restart=always -v /root/volumens/bot_sessions:/app/bot_sessions bot-mary"
     },
     "keywords": [],
     "dependencies": {

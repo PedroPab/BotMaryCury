@@ -1,23 +1,228 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '573054061863@s.whatsapp.net',
+    remoteJid: '573006740076@s.whatsapp.net',
     fromMe: false,
-    id: 'F7CE9E8C48A875AB08',
+    id: '3EB01E73F33FDA9B6DD537',
     participant: undefined
   },
-  messageTimestamp: 1702749701,
-  pushName: '🥰😍',
+  messageTimestamp: 1702754117,
+  pushName: 'María Jesed Arroyave Rest',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'antes de darle la documentación',
-      contextInfo: [ContextInfo]
+      text: 'hoal',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
     },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'antes de darle la documentación',
-  from: '573054061863'
+  body: 'hoal',
+  from: '573006740076'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573006740076@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB02054610CCBE808BB51',
+    participant: undefined
+  },
+  messageTimestamp: 1702754121,
+  pushName: 'María Jesed Arroyave Rest',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hoal',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hoal',
+  from: '573006740076'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573006740076@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0B61D62D79BF046574A',
+    participant: undefined
+  },
+  messageTimestamp: 1702754139,
+  pushName: 'María Jesed Arroyave Rest',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '573006740076'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_bb6f3eac-753e-4f75-bc6c-db1f6db4091b',
+  keyword: 'key_4bac0d47-3dea-40a5-9350-91fe58a41234',
+  answer: '👋 Hola, bienvenido a Domi Burguer',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'f793b49dbab683069920843830a7249f'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2f771107-ab36-48c7-b2c5-1b54d0aac8e9',
+  keyword: 'ans_bb6f3eac-753e-4f75-bc6c-db1f6db4091b',
+  answer: '*¡Nos hemos actualizado!*\n' +
+    'Ahora puedes hacer tu pedido de una manera más ágil\n' +
+    '¿Quieres saber cómo?\n' +
+    '\n' +
+    'Escribe:  *si*  /  *no*   para tu respuesta',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '30867baa063d4d77c4fe25450c45a020'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573006740076@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB00D48087E1AD4DD85CB',
+    participant: undefined
+  },
+  messageTimestamp: 1702754144,
+  pushName: 'María Jesed Arroyave Rest',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'no',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'no',
+  from: '573006740076'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_677c5ab1-b077-4a88-a41b-873a516f206c',
+  keyword: 'key_1eb380ca-791a-4bc4-9253-123a7af1b9bf',
+  answer: 'Tranqui, siempre estaremos aqui para atenderte por este medio ✨\n' +
+    '\n' +
+    '¿Que deseas ordenar el día de hoy?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'c79c7f4d14628e8b83d968315d1f8d4e'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573006740076@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0C74F1381E7A387A994',
+    participant: undefined
+  },
+  messageTimestamp: 1702754147,
+  pushName: 'María Jesed Arroyave Rest',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'asif',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'asif',
+  from: '573006740076'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573006740076@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0FF8F462C37B8787AEB',
+    participant: undefined
+  },
+  messageTimestamp: 1702754149,
+  pushName: 'María Jesed Arroyave Rest',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hsil',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hsil',
+  from: '573006740076'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573006740076@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0FCA578499415D469F2',
+    participant: undefined
+  },
+  messageTimestamp: 1702754150,
+  pushName: 'María Jesed Arroyave Rest',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hsosa',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hsosa',
+  from: '573006740076'
 }
